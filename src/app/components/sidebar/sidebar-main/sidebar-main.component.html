@@ -1,0 +1,14 @@
+<mat-icon *ngIf="!isMenuOpen" class="burger-menu" (click)="toggleMenu()"
+  >menu</mat-icon
+>
+<div [class.is-open]="isMenuOpen" class="sidebar">
+  <mat-icon *ngIf="isMenuOpen" class="burger-menu" (click)="toggleMenu()"
+    >close</mat-icon
+  >
+  <app-photo-size-picker></app-photo-size-picker>
+  <app-sidebar-buttons></app-sidebar-buttons>
+  <app-special-notes
+    *ngFor="let text of loremText"
+    [text]="text"
+  ></app-special-notes>
+</div>

@@ -1,0 +1,15 @@
+@import 'src/assets/styles/_vars.scss';
+
+.keywords-container{
+    display: flex;
+    gap: 10px;
+    flex-wrap: wrap;
+}
+
+.keyword{
+    background-color: $white1;
+    padding: 2px 15px;
+    border-radius: 50px;
+    border: 1px solid $grey4;
+    width: fit-content;
+}

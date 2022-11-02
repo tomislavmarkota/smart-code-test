@@ -1,0 +1,9 @@
+.author-details-container{
+    display: flex;
+    & div {
+        flex-basis: 33%; 
+    }
+    @media (max-width: 480px) {
+        flex-direction: column;
+    }
+}

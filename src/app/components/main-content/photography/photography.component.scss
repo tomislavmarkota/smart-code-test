@@ -1,0 +1,14 @@
+@import 'src/assets/styles/_vars.scss';
+
+.img-wrapper{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+    background-color: $grey3;
+    padding: 50px 30px;
+    img{
+        width: 100%;
+        max-width: 500px;
+    }
+}

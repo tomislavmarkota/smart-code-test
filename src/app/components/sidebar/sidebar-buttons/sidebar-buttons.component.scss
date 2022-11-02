@@ -1,0 +1,17 @@
+@import '/src/assets/styles/vars';
+
+.btns-wrapper{
+    margin-top: 33px;
+    border-bottom: 1px solid $grey2;
+    padding-bottom: 33px;
+}
+
+.double-btn-container{
+    display: flex;
+    gap: 10px;
+    margin-bottom: 20px;
+}
+
+.btn{
+    width: 100%;
+}

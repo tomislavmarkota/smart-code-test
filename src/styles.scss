@@ -1,1 +1,49 @@
 /* You can add global styles to this file, and also import other style files */
+@import url("https://fonts.googleapis.com/css2?family=Open+Sans&display=swap");
+@import "/src/assets/styles/vars";
+
+html,
+body {
+  height: 100%;
+  overflow-x: hidden;
+}
+body {
+  margin: 0;
+  font-family: "Open Sans", sans-serif !important;
+}
+
+h5 {
+  text-transform: uppercase;
+  font-size: 12px;
+  font-weight: 700!important;
+  font-family: "Open Sans", sans-serif !important;
+}
+
+.flex-container {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+mat-radio-button {
+  & .mat-radio-outer-circle {
+    height: 15px !important;
+    width: 15px !important;
+    border-color: $black1 !important;
+    border-width: 1px !important;
+  }
+
+  & .mat-radio-inner-circle {
+    height: 15px !important;
+    width: 15px !important;
+    background-color: $orangeRadio !important;
+  }
+}
+
+.mat-radio-label {
+  align-items: flex-start !important;
+}
+.mat-radio-container {
+  height: 15px !important;
+  width: 15px !important;
+}
