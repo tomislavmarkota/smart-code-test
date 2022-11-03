@@ -2,10 +2,10 @@ import { Component, OnInit } from '@angular/core';
 
 @Component({
   selector: 'app-sidebar-main',
-  templateUrl: './sidebar-main.component.html',
-  styleUrls: ['./sidebar-main.component.scss'],
+  templateUrl: './sidebar.component.html',
+  styleUrls: ['./sidebar.component.scss'],
 })
-export class SidebarMainComponent implements OnInit {
+export class SidebarComponent implements OnInit {
   isMenuOpen: boolean = false;
 
   loremText = [
