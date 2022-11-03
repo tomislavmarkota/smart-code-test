@@ -7,6 +7,9 @@
 
     background-color: $grey3;
     padding: 42px 30px 65px 30px;
+    @media (max-width: 480px) {
+        padding: 52px 40px 65px 40px;
+    }
     img{
         width: 100%;
         max-width: 500px;
