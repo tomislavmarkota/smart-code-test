@@ -13,7 +13,7 @@ import { SpecialNotesComponent } from './components/sidebar/special-notes/specia
 import { SidebarComponent } from './components/sidebar/sidebar.component';
 import { MaterialModule } from './modules/material.module';
 import { BrowserAnimationsModule } from '@angular/platform-browser/animations';
-import { TooltipComponent } from './components/sidebar/tooltip/tooltip.component';
+import { TooltipComponent } from './components/sidebar/photo-size-picker/tooltip/tooltip.component';
 import { ButtonComponent } from './components/sidebar/sidebar-buttons/button/button.component';
 
 @NgModule({
