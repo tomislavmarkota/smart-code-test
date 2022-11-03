@@ -42,6 +42,10 @@ mat-radio-button {
   }
 }
 
+.mat-ripple-element{
+  display: none !important;
+}
+
 .mat-radio-label {
   align-items: flex-start !important;
 }
