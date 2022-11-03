@@ -14,9 +14,11 @@
       justify-content: flex-start;
       width: 50%;
       position: fixed;
+      height: auto;
       background-color: white;
       top: 0;
       right: 0;
+      bottom: 0;
       box-shadow: 100px -10px 10px 15px rgba(0, 0, 0, 0.2),
         0px 16px 24px 2px rgba(0, 0, 0, 0.14),
         0px 6px 30px 5px rgba(0, 0, 0, 0.12);
