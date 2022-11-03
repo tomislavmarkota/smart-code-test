@@ -1,7 +1,7 @@
 @import '/src/assets/styles/vars';
 
 .sidebar {
-  padding: 45px 35px;
+  padding: 45px 35px 0px 45px;
   max-width: 410px;
   height: 100%;
   @media (max-width: 768px) {
@@ -30,7 +30,7 @@
   @media (max-width: 481px){
     &.is-open {
     width: 80%;
-    padding: 45px 15px;
+    padding: 45px 15px 0px 45px;
     }
   }
 }
