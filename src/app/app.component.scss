@@ -1,6 +1,5 @@
 .main-wrapper{
     display: flex;
-
 }
 
 app-main{
@@ -13,6 +12,6 @@ app-main{
 app-sidebar-main{
     flex-basis: 30%;
     @media (max-width: 768px) {
-        flex-basis: 0%;
+        flex-basis: 0;
     }
 }

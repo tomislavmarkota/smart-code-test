@@ -15,6 +15,7 @@ import { MaterialModule } from './modules/material.module';
 import { BrowserAnimationsModule } from '@angular/platform-browser/animations';
 import { TooltipComponent } from './components/shared/tooltip/tooltip.component';
 import { ButtonComponent } from './components/sidebar/sidebar-buttons/button/button.component';
+import { BurgerMenuComponent } from './components/shared/burger-menu/burger-menu.component';
 
 @NgModule({
   declarations: [
@@ -29,7 +30,8 @@ import { ButtonComponent } from './components/sidebar/sidebar-buttons/button/but
     SpecialNotesComponent,
     SidebarMainComponent,
     TooltipComponent,
-    ButtonComponent
+    ButtonComponent,
+    BurgerMenuComponent
   ],
   imports: [
     BrowserModule,

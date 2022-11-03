@@ -1,9 +1,14 @@
-<mat-icon *ngIf="!isMenuOpen" class="burger-menu" (click)="toggleMenu()"
-  >menu</mat-icon
+<mat-icon
+  *ngIf="!isMenuOpen"
+  class="burger-menu"
+  (click)="toggleMenu()"
+  >arrow_circle_down</mat-icon
 >
 <div [class.is-open]="isMenuOpen" class="sidebar">
-  <mat-icon *ngIf="isMenuOpen" class="burger-menu" (click)="toggleMenu()"
-    >close</mat-icon
+  <mat-icon *ngIf="isMenuOpen" 
+  class="burger-menu"
+  (click)="toggleMenu()"
+    >arrow_circle_down</mat-icon
   >
   <app-photo-size-picker></app-photo-size-picker>
   <app-sidebar-buttons></app-sidebar-buttons>
