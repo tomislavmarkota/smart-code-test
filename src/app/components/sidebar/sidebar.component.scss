@@ -4,6 +4,7 @@
   padding: 45px 45px 0px 45px;
   max-width: 410px;
   height: 100%;
+  width: 100%;
   @media (max-width: 768px) {
     display: none;
     &.is-open {
@@ -29,8 +30,8 @@
   }
   @media (max-width: 481px){
     &.is-open {
-    width: 80%;
-    padding: 40px 35px 0px 35px;
+    width: auto;
+    padding: 40px 15px 0px 15px;
     }
   }
 }
