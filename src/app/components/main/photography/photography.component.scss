@@ -1,10 +1,8 @@
 @import 'src/assets/styles/_vars.scss';
+@import 'src/assets/styles/_mixins.scss';
 
 .img-wrapper{
-    display: flex;
-    justify-content: center;
-    align-items: center;
-
+    @include flex-center;
     background-color: $grey3;
     padding: 42px 30px 65px 30px;
     @media (max-width: 480px) {
