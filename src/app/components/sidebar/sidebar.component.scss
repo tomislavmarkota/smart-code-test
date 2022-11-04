@@ -4,6 +4,7 @@
   padding: 45px 45px 0px 45px;
   max-width: 410px;
   height: 100%;
+  margin: auto;
   @media (max-width: 768px) {
     display: none;
     &.is-open {
